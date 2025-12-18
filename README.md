@@ -1,131 +1,149 @@
-//* +  — Plus Operator / Addition Operator
-//* Example: if (a + b > 10) → adds two values
+# 🔧 Programming Operators Reference
 
-//* -  — Minus Operator / Subtraction Operator
-//* Example: if (a - b < 0) → subtracts b from a
+A comprehensive guide to common operators used in programming languages like JavaScript, C, C++, and more.
 
-//* *  — Asterisk / Multiplication Operator
-//* Example: if (a * b === 20) → multiplies values
+---
 
-//* /  — Slash / Division Operator
-//* Example: if (a / b === 2) → divides a by b
+## 📊 Arithmetic Operators
 
-//* %  — Modulo Operator / Remainder Operator
-//* Example: if (a % 2 === 0) → checks even number
+| Operator | Name | Example | Description |
+|----------|------|---------|-------------|
+| `+` | Plus / Addition | `a + b > 10` | Adds two values |
+| `-` | Minus / Subtraction | `a - b < 0` | Subtracts b from a |
+| `*` | Asterisk / Multiplication | `a * b === 20` | Multiplies values |
+| `/` | Slash / Division | `a / b === 2` | Divides a by b |
+| `%` | Modulo / Remainder | `a % 2 === 0` | Returns remainder (checks even number) |
+| `++` | Increment | `i++` | Increases i by 1 |
+| `--` | Decrement | `i--` | Decreases i by 1 |
 
-//* ++  — Increment Operator
-//* Example: i++ → increases i by 1
+---
 
-//* --  — Decrement Operator
-//* Example: i-- → decreases i by 1
+## 🎯 Assignment Operators
 
-//* =  — Assignment Operator
-//* Example: x = 5 → assigns value to variable
+| Operator | Name | Example | Description |
+|----------|------|---------|-------------|
+| `=` | Assignment | `x = 5` | Assigns value to variable |
 
-//* ==  — Equality Operator (Loose Equality)
-//* Example: if (5 == "5") → true (type ignored)
+---
 
-//* ===  — Strict Equality Operator (JavaScript)
-//* Example: if (5 === "5") → false (type checked)
+## ⚖️ Comparison Operators
 
-//* !=  — Inequality Operator
-//* Example: if (a != b) → values not equal
+| Operator | Name | Example | Description |
+|----------|------|---------|-------------|
+| `==` | Equality (Loose) | `5 == "5"` | Returns true (type ignored) |
+| `===` | Strict Equality | `5 === "5"` | Returns false (type checked) |
+| `!=` | Inequality | `a != b` | Values not equal |
+| `!==` | Strict Inequality | `a !== b` | Value or type different |
+| `<` | Less Than | `a < b` | a is smaller than b |
+| `>` | Greater Than | `a > b` | a is bigger than b |
+| `<=` | Less Than or Equal | `a <= b` | a is smaller or equal |
+| `>=` | Greater Than or Equal | `a >= b` | a is bigger or equal |
 
-//* !==  — Strict Inequality Operator
-//* Example: if (a !== b) → value or type different
+---
 
-//* <  — Less Than Operator
-//* Example: if (a < b) → a is smaller
+## 🧠 Logical Operators
 
-//* >  — Greater Than Operator
-//* Example: if (a > b) → a is bigger
+| Operator | Name | Example | Description |
+|----------|------|---------|-------------|
+| `&&` | Logical AND | `a > 0 && b > 0` | Both conditions must be true |
+| `\|\|` | Logical OR | `a > 0 \|\| b > 0` | Any one condition true |
+| `!` | Logical NOT | `!isLoggedIn` | Reverses boolean value |
 
-//* <=  — Less Than or Equal To Operator
-//* Example: if (a <= b)
+---
 
-//* >=  — Greater Than or Equal To Operator
-//* Example: if (a >= b)
+## 🔗 Access & Structure Operators
 
-//* &&  — Logical AND Operator
-//* Example: if (a > 0 && b > 0) → both must be true
+| Operator | Name | Example | Description |
+|----------|------|---------|-------------|
+| `.` | Dot / Member Access | `user.name` | Access object property |
+| `,` | Comma / Separator | `function(a, b, c)` | Separates parameters |
+| `;` | Semicolon / Terminator | `let x = 5;` | Ends statement |
+| `:` | Colon | `key: value` | Used in objects/ternary |
+| `?` | Question Mark | `age > 18 ? "Adult"` | Ternary operator part |
+| `?:` | Ternary Operator | `isAdmin ? allow() : deny()` | Conditional expression |
 
-//* ||  — Logical OR Operator
-//* Example: if (a > 0 || b > 0) → any one true
+---
 
-//* !  — Logical NOT Operator
-//* Example: if (!isLoggedIn) → reverses boolean
+## 📦 Brackets & Braces
 
-//* .  — Dot Operator / Member Access Operator
-//* Example: user.name → access object property
+| Operator | Name | Example | Description |
+|----------|------|---------|-------------|
+| `()` | Parentheses | `func()`, `(a + b)` | Function call, grouping |
+| `[]` | Square Brackets | `arr[0]` | Array index access |
+| `{}` | Curly Braces | `if (true) { code }` | Block scope |
 
-//* ,  — Comma Operator / Separator
-//* Example: function(a, b, c)
+---
 
-//* ;  — Semicolon / Statement Terminator
-//* Example: let x = 5;
+## ➡️ Arrow & Pointer Operators
 
-//* :  — Colon Operator
-//* Example: condition ? trueValue : falseValue
+| Operator | Name | Example | Description |
+|----------|------|---------|-------------|
+| `->` | Arrow (C/C++) | `ptr->value` | Access via pointer |
+| `=>` | Arrow Function (JS) | `(a,b) => a + b` | ES6 arrow function |
 
-//* ?  — Ternary Conditional Operator (Part)
-//* Example: age > 18 ? "Adult" : "Child"
+---
 
-//* ?: — Ternary Operator
-//* Example: isAdmin ? allow() : deny()
+## 🔢 Bitwise Operators
 
-//* () — Parentheses / Round Brackets
-//* Example: func(), (a + b)
+| Operator | Name | Example | Description |
+|----------|------|---------|-------------|
+| `&` | Ampersand / Bitwise AND | `a & b` | Bitwise AND operation |
+| `\|` | Pipe / Bitwise OR | `a \| b` | Bitwise OR operation |
+| `^` | Caret / Bitwise XOR | `a ^ b` | Bitwise XOR operation |
+| `~` | Bitwise NOT | `~a` | Flips all bits |
 
-//* [] — Square Brackets / Array Index Operator
-//* Example: arr[0]
+---
 
-//* {} — Curly Braces / Block Scope Operator
-//* Example: if (true) { code }
+## 🔤 String & Special Characters
 
-//* -> — Arrow Operator (C/C++)
-//* Example: ptr->value → access via pointer
+| Operator | Name | Example | Description |
+|----------|------|---------|-------------|
+| `\` | Backslash / Escape | `"\n"` | Escape character (new line) |
+| `"` | Double Quote | `"Hello World"` | String delimiter |
+| `'` | Single Quote | `'Hello'` | String delimiter |
+| `` ` `` | Backtick | `` `Hello ${name}` `` | Template literal (JS) |
+| `#` | Hash / Pound | `#include` | Preprocessor (C/C++) |
+| `@` | At Sign / Decorator | `@Component()` | Decorator (TypeScript) |
+| `$` | Dollar Sign | `${price}` | Template literal variable |
 
-//* => — Arrow Function Operator (JavaScript)
-//* Example: const sum = (a,b) => a + b
+---
 
-//* & — Ampersand / Bitwise AND / Address-of
-//* Example: a & b → bitwise AND
+## 🔍 Scope & Namespace
 
-//* | — Pipe Operator / Bitwise OR
-//* Example: a | b
+| Operator | Name | Example | Description |
+|----------|------|---------|-------------|
+| `::` | Scope Resolution | `std::cout` | Namespace access (C++) |
 
-//* ^ — Caret Operator / Bitwise XOR
-//* Example: a ^ b
+---
 
-//* ~ — Bitwise NOT Operator
-//* Example: ~a → flips bits
+## 💬 Comment Operators
 
-//* \ — Backslash / Escape Character
-//* Example: "\n" → new line
+| Operator | Name | Example | Description |
+|----------|------|---------|-------------|
+| `//` | Single-line Comment | `// this is a comment` | Comment one line |
+| `/* */` | Multi-line Comment | `/* multiple lines */` | Comment multiple lines |
 
-//* " — Double Quote
-//* Example: "Hello World"
+---
 
-//* ' — Single Quote
-//* Example: 'Hello'
+## 📚 Usage Tips
 
-//* ` — Backtick / Template Literal
-//* Example: `Hello ${name}`
+- Use **strict equality** (`===`) in JavaScript to avoid type coercion bugs
+- **Increment/decrement** operators can be prefix (`++i`) or postfix (`i++`)
+- **Ternary operator** is great for short conditional assignments
+- **Bitwise operators** are useful for low-level programming and optimization
 
-//* # — Hash / Pound
-//* Example: #include <stdio.h> (C)
+---
 
-//* @ — At Sign / Decorator
-//* Example: @Component() (TypeScript)
+## 🤝 Contributing
 
-//* $ — Dollar Sign
-//* Example: ${price} in template literal
+Feel free to add more operators or examples by creating a pull request!
 
-//* :: — Scope Resolution Operator
-//* Example: std::cout (C++)
+---
 
-//* // — Single-line Comment
-//* Example: // this is a comment
+## 📄 License
 
-//* /* ... */ — Multi-line Comment
-//* Example: /* multiple lines */
+This reference is free to use and distribute.
+
+---
+
+**Happy Coding! 💻**
